@@ -9,3 +9,5 @@ pin: true
 # This post serves as a starting point for Liam's Life
 
 I always wanted to have a blog but never knew where to start. Each time I have started in the past I get stuck on what web framework to use, how to design the blog, what content should the blogs contain and about a million other things... 
+
+Then I came upon Jekyll. Not knowing what this odd word meant I quickly aquainted myself with it aka watched a 1 min youtube video.
