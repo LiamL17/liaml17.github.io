@@ -2,6 +2,7 @@
 title: Using memoization to combat ReDoS
 date: 2023-02-15 22:26 +0200
 categories: [code, regex, ddos, redos, advanced]
+tags: [intermediate]
 ---
 
 ![Regex meme](/assets/img/ReDoS/Regex.png)
