@@ -71,10 +71,14 @@ const result = await wordpos.lookup(
     async function (result: any) {
         return result;
     }
-    );
+);
 ```
 
-Wala, we have a list of synonyms! Well, not quite. We have a result containing a lot of information about our word. Within this result is our synonyms. Thanks to a debug log output I could see the format of the object. Thus to obtain a list of synonyms we'd have to execute the below:
+Voila, we have a list of synonyms! Well, not quite. We have a result containing a lot of information about our word. Within this result is our synonyms. Thanks to a debug log output I could see the format of the object. The object is defined below:
+
+![Console.log of result](/assets/img/posts/Result_of_objects.png)
+
+Thus to obtain a list of synonyms we'd have to execute the below:
 
 ```typescript
 result[0]["synonyms"]
@@ -121,5 +125,7 @@ It gives a very small list of synonyms which are not very helpful in most cases.
 
 Lastly, I want give the user a list of antonyms for a selected word. This will be combined with the change to switch to API based searching.
 
+[^1]: [Github](https://github.com/)
+[^2]: It is definitely not a photo copy, but from my miniscule understanding of io-ts it seemed like a photo copy. 
 [^1]: [Github](https://github.com/)
 [^2]: It is definitely not a photo copy, but from my miniscule understanding of io-ts it seemed like a photo copy. 
