@@ -1,7 +1,7 @@
 ---
 title: Writing a VS Code extension
 date: 2023-02-26 19:35 +0200
-categories: [learning, code, vscode, typescript]
+tags: [code, vscode, typescript]
 ---
 
 ## Motivation

@@ -1,8 +1,7 @@
 ---
 title: A new beginning
 date: 2023-02-12 23:53:31
-categories: [code, introduction, jekyll]
-tags: [new]
+tags: [new, jekyll]
 pin: true
 ---
 
