@@ -25,6 +25,10 @@ social:
 google_site_verification:
 google_analytics:
   id: "G-DMVKGMFVMR"
+  # Google Analytics pageviews report settings
+  pv:
+    proxy_endpoint:   # fill in the Google Analytics superProxy endpoint of Google App Engine
+    cache_path:       # the local PV cache data, friendly to visitors from GFW region
 
 theme_mode: dark
 
@@ -75,7 +79,7 @@ assets:
     enabled:      # boolean, keep empty means false
     # specify the Jekyll environment, empty means both
     # only works if `assets.self_host.enabled` is 'true'
-    env:          # [development|production]
+    env: production          # [development|production]
 
 pwa:
   enabled: true   # the option for PWA feature
