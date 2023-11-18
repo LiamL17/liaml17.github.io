@@ -46,9 +46,11 @@ toc: true
 
 plugins:
   - jemoji
+  - jekyll-analytics
 
 whitelist:
   - jemoji
+  - jekyll-analytics
 
 comments:
   active:         # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
@@ -160,3 +162,8 @@ jekyll-archives:
     tag: tag
   permalinks:
     tag: /tags/:name/
+
+jekyll_analytics:
+  GoogleAnalytics:
+    id: G-DMVKGMFVMR
+    anonymizeIp: false 
