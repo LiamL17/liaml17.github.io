@@ -24,10 +24,7 @@ social:
 
 google_site_verification:
 google_analytics:
-  id:
-  pv:
-    proxy_endpoint:
-    cache_path:
+  id: "G-DMVKGMFVMR"
 
 theme_mode: dark
 
@@ -162,8 +159,3 @@ jekyll-archives:
     tag: tag
   permalinks:
     tag: /tags/:name/
-
-jekyll_analytics:
-  GoogleAnalytics:
-    id: G-DMVKGMFVMR
-    anonymizeIp: false 
