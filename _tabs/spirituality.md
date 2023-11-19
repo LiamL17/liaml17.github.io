@@ -28,3 +28,7 @@ In chapter 2 Ezekiel is tasked by God. He is also given a scroll he must eat. On
 In chapter 3 God puts Ezekiel through many things that would kill a man. I perceive this as God building confidence in Ezekiel. Showing him that the Lord will save him. He also mutes Ezekiel as God knows he would want to rebuke and kill all of them.
 
 In chapter 4 Ezekiel is told by God to eat defiled food. Food cooked over human excrement. Ezekiel says no to God and God changes His mind to allow Ezekiel to eat food cooked over cow dung. I cannot believe that one of the great prophets openly said no to God!
+
+#### Day 2
+Chapter 5-8
+It starts off where God reveals the sharp razor to Ezekiel God speaks of how Isreal has turned away from Him. God further reveals how He will let them fall to the sword. He will spare some so that they may confess what happened to the nations of the world. Chapter 7 further elaborates that the end has come. God won't be pityful and everything will be turned around! The last chapter speaks of the idolatry in the temple of the Lord. How the elders are turning to idols and saying that God has forsaken them. Even within the inner room of the temple there were 25 men praying to the sun. God will deal with them in anger!
