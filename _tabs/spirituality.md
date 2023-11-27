@@ -32,3 +32,7 @@ In chapter 4 Ezekiel is told by God to eat defiled food. Food cooked over human 
 #### Day 2
 Chapter 5-8
 It starts off where God reveals the sharp razor to Ezekiel God speaks of how Isreal has turned away from Him. God further reveals how He will let them fall to the sword. He will spare some so that they may confess what happened to the nations of the world. Chapter 7 further elaborates that the end has come. God won't be pityful and everything will be turned around! The last chapter speaks of the idolatry in the temple of the Lord. How the elders are turning to idols and saying that God has forsaken them. Even within the inner room of the temple there were 25 men praying to the sun. God will deal with them in anger!
+
+#### Day 3
+Chapter 9-12
+God commanded the executioners to destroy all in the city, starting with the temple, who are sinning. Ezekiel cries out to God to stop because He will kill everyone, but God says it must be done because of their sin. God did have compassion though, He saved all who hated sin. He marked them before He executed those of sin.
