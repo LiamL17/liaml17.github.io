@@ -36,3 +36,20 @@ It starts off where God reveals the sharp razor to Ezekiel God speaks of how Isr
 #### Day 3
 Chapter 9-12
 God commanded the executioners to destroy all in the city, starting with the temple, who are sinning. Ezekiel cries out to God to stop because He will kill everyone, but God says it must be done because of their sin. God did have compassion though, He saved all who hated sin. He marked them before He executed those of sin.
+
+---
+
+## Bible Study
+
+### James
+
+
+*Table summary*
+
+| Chapter | 5 Word Summary | Extended summary | Favorite verses |   |
+|---------|----------------|------------------|-----------------|---|
+| 1       |                |                  |                 |   |
+| 2       |                |                  |                 |   |
+| 3       |                |                  |                 |   |
+| 4       |                |                  |                 |   |
+| 5       |                |                  |                 |   |
