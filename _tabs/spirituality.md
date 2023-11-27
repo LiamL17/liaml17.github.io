@@ -4,6 +4,8 @@ icon: fas fa-bible
 order: 3
 ---
 
+{:toc}
+
 ## Through the Bible
 ### Isaiah
 16/11/23 - 
