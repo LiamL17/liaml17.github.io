@@ -17,23 +17,23 @@ These are but a few descriptions of my future person. I believe she will pop up 
 ## Me, Myself and I
 These set of descriptions will be a bit different...
 
-Liam is roughly the wingspan of 3 penguins doing the cha-cha in height.
-Liam weighs the same as 232 cans of fizzy soda.
-Liam has the eye color of the inner circle of a 7 year old R5 coin.
-Liam has the wisdom of about 46 owls wearing glasses.
-Liam has the eyesight of a Ferruginous Hawk.
-Liam can bench press the weight of 1.4 baby elephants in gold coins.
-Liam can snatch the weight of 18 watermelons (seedless of course).
-Liam has the patience equivalent to a squirrel in a peanut factory when apps are slow.
-Liam is as calm as a fridge magnet.
-Liam is as old in days as a value between the 21st and 22nd Fibonacci number.
-Liam's mind is like the Mandelbrot set.
-Liam would question Aristotle.
-Liam can be as humble as a doorstep yet confident as a lock.
-Liam loves sport as Jesus loves the church.
-Liam loves swimming as the sun likes rising.
-Liam's time keeping is on par with Japan's railway system.
-Liam's dreams are as wide as Jupiter as Mars.
+Liam is roughly the wingspan of 3 penguins doing the cha-cha in height.\
+Liam weighs the same as 232 cans of fizzy soda.\
+Liam has the eye color of the inner circle of a 7 year old R5 coin.\
+Liam has the wisdom of about 46 owls wearing glasses.\
+Liam has the eyesight of a Ferruginous Hawk.\
+Liam can bench press the weight of 1.4 baby elephants in gold coins.\
+Liam can snatch the weight of 18 watermelons (seedless of course).\
+Liam has the patience equivalent to a squirrel in a peanut factory when apps are slow.\
+Liam is as calm as a fridge magnet.\
+Liam is as old in days as a value between the 21st and 22nd Fibonacci number.\
+Liam's mind is like the Mandelbrot set.\
+Liam would question Aristotle.\
+Liam can be as humble as a doorstep yet confident as a lock.\
+Liam loves sport as Jesus loves the church.\
+Liam loves swimming as the sun likes rising.\
+Liam's time keeping is on par with Japan's railway system.\
+Liam's dreams are as wide as Jupiter as Mars.\
 
 ## For now
 I'm feeling tired. I'm feeling accomplished. I'm feeling like tomorrow is going to be a good day. I feel like I did a good job. I feel a bit of stomach pain. I feel the wind blowing from my bedroom window. I feel the pain in right wrist as it's pressing against the bottom of my laptop. So with all these feelings in mind, I'm going to stop describing everything for now...
