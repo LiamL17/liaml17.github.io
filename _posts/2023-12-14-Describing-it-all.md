@@ -34,6 +34,11 @@ Liam loves sport as Jesus loves the church.\
 Liam loves swimming as the sun likes rising.\
 Liam's time keeping is on par with Japan's railway system.\
 Liam's dreams are as wide as Jupiter as Mars.\
+Liam's favorite colour is #0349fc.\
+Liam has read as many books as there have been presidents in South Africa since apartheid.\
+Liam has as many shoes as petals on the Imperial Seal of Japan.\
+Liam hates being warm as a mosquito hates a zombie.\
+Liam loves meat as a philosopher likes arguing.\
 
 ## For now
 I'm feeling tired. I'm feeling accomplished. I'm feeling like tomorrow is going to be a good day. I feel like I did a good job. I feel a bit of stomach pain. I feel the wind blowing from my bedroom window. I feel the pain in right wrist as it's pressing against the bottom of my laptop. So with all these feelings in mind, I'm going to stop describing everything for now...
