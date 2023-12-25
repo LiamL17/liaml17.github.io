@@ -163,3 +163,5 @@ jekyll-archives:
     tag: tag
   permalinks:
     tag: /tags/:name/
+
+verbosity: error
