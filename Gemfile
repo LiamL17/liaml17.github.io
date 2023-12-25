@@ -30,4 +30,3 @@ end
 gem 'jekyll-compose', group: [:jekyll_plugins]
 gem 'jekyll-analytics'
 gem 'jemoji'
-gem 'csv'
