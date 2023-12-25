@@ -2,9 +2,8 @@
 layout: 
 icon: fas fa-bible
 order: 3
+toc: true
 ---
-
-{:toc}
 
 ## Through the Bible
 ### Isaiah
