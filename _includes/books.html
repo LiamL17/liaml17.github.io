@@ -1,0 +1,144 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Markmap</title>
+    <style>
+      #mindmap {
+        display: block;
+        width: 100%;
+        min-height: 20vw;
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.15.8/dist/style.css"
+    />
+  </head>
+  <body>
+    <svg id="mindmap"></svg>
+    <script src="https://cdn.jsdelivr.net/npm/d3@7.8.5/dist/d3.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/markmap-view@0.15.8/dist/browser/index.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.15.8/dist/index.js"></script> -->
+    <script>
+      (() => {
+        setTimeout(() => {
+          const { markmap: H, mm: pe } = window,
+            ie = new H.Toolbar();
+          ie.attach(pe);
+          const ae = ie.render();
+          ae.setAttribute("style", "position:absolute;bottom:20px;right:20px"),
+            document.body.append(ae);
+        });
+      })();
+    </script>
+    <script>
+      ((C, E, F, I) => {
+        const R = C();
+        window.mm = R.Markmap.create(
+          "svg#mindmap",
+          (E || R.deriveOptions)(I),
+          F
+        );
+      })(
+        () => window.markmap,
+        null,
+        {
+          type: "heading",
+          depth: 0,
+          payload: { lines: [1, 2] },
+          content: "Books",
+          children: [
+            {
+              type: "heading",
+              depth: 1,
+              payload: { lines: [2, 3] },
+              content: '<a href="/books/#completed">Completed</a>',
+              children: [
+                {
+                  type: "heading",
+                  depth: 2,
+                  payload: { lines: [3, 4] },
+                  content: '<a href="/books/#atomic-habits">Atomic Habits</a>',
+                  children: [],
+                },
+              ],
+            },
+            {
+              type: "heading",
+              depth: 1,
+              payload: { lines: [5, 6] },
+              content: '<a href="/books/#current">Current</a>',
+              children: [
+                {
+                  type: "heading",
+                  depth: 2,
+                  payload: { lines: [6, 7] },
+                  content:
+                    '<a href="/books/#the-seven-habits-of-highly-effective-people">The Seven Habits Of Highly Effective People</a>',
+                  children: [],
+                },
+                {
+                  type: "heading",
+                  depth: 2,
+                  payload: { lines: [7, 8] },
+                  content:
+                    '<a href="/books/#change-your-world">Change your world</a>',
+                  children: [],
+                },
+              ],
+            },
+            {
+              type: "heading",
+              depth: 1,
+              payload: { lines: [9, 10] },
+              content: '<a href="/books/#future">Future</a>',
+              children: [
+                {
+                  type: "heading",
+                  depth: 2,
+                  payload: { lines: [11, 12] },
+                  content: '<a href="/books/#prophecy">Prophecy</a>',
+                  children: [],
+                },
+                {
+                  type: "heading",
+                  depth: 2,
+                  payload: { lines: [12, 13] },
+                  content:
+                    '<a href="/books/#rich-dad-poor-dad-re-read">Rich dad, poor dad (re-read)</a>',
+                  children: [],
+                },
+                {
+                  type: "heading",
+                  depth: 2,
+                  payload: { lines: [13, 14] },
+                  content: '<a href="/books/#the-5am-club">The 5AM club</a>',
+                  children: [],
+                },
+                {
+                  type: "heading",
+                  depth: 2,
+                  payload: { lines: [14, 15] },
+                  content:
+                    '<a href="/books/#48-laws-of-power">48 Laws of Power</a>',
+                  children: [],
+                },
+                {
+                  type: "heading",
+                  depth: 2,
+                  payload: { lines: [15, 16] },
+                  content:
+                    '<a href="/books/#moonwalking-with-einstein">Moonwalking with Einstein</a>',
+                  children: [],
+                },
+              ],
+            },
+          ],
+        },
+        { zoom: false, pan: false }
+      );
+    </script>
+  </body>
+</html>
