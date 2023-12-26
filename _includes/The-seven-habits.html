@@ -1,0 +1,1169 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Markmap</title>
+    <style>
+      #mindmap {
+        display: block;
+        width: 100%;
+        min-height: 150vw;
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.15.8/dist/style.css"
+    />
+  </head>
+  <body>
+    <svg id="mindmap"></svg>
+    <script src="https://cdn.jsdelivr.net/npm/d3@7.8.5/dist/d3.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/markmap-view@0.15.8/dist/browser/index.js"></script>
+    <script>
+      (() => {
+        setTimeout(() => {
+          const { markmap: H, mm: pe } = window,
+            ie = new H.Toolbar();
+          ie.attach(pe);
+          const ae = ie.render();
+          ae.setAttribute("style", "position:absolute;bottom:20px;right:20px"),
+            document.body.append(ae);
+        });
+      })();
+    </script>
+    <script>
+      ((C, E, F, I) => {
+        const R = C();
+        window.mm = R.Markmap.create(
+          "svg#mindmap",
+          (E || R.deriveOptions)(I),
+          F
+        );
+      })(
+        () => window.markmap,
+        null,
+        {
+          type: "root",
+          depth: 0,
+          content: "",
+          children: [
+            {
+              type: "heading",
+              depth: 1,
+              payload: { lines: [1, 2] },
+              content:
+                '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#paradigms-and-principles">Paradigms and Principles</a>',
+              children: [
+                {
+                  type: "heading",
+                  depth: 2,
+                  payload: { lines: [2, 3] },
+                  content:
+                    '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#inside-out">Inside-out</a>',
+                  children: [
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [3, 4] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#the-personality-and-character-ethics">The personality and character ethics</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [4, 5] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#primary-and-secondary-greatness">Primary and secondary greatness</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [5, 6] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#the-power-of-paradigm">The power of paradigm</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [6, 7] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#the-power-of-paradigm-shift">The power of paradigm shift</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [7, 8] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#seeing-and-being">Seeing and being</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [8, 9] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#the-principle-centered-paradigm">The principle-centered paradigm</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [9, 10] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#principles-of-growth-and-change">Principles of growth and change</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [10, 11] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#the-way-we-see-the-problem-is-the-problem">The way we see the problem is the problem</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [11, 12] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#a-new-level-of-thinking">A new level of thinking</a>',
+                      children: [],
+                    },
+                  ],
+                },
+                {
+                  type: "heading",
+                  depth: 2,
+                  payload: { lines: [13, 14] },
+                  content:
+                    '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#the-seven-habits-an-overview">The Seven Habits -- An Overview</a>',
+                  children: [
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [14, 15] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#habits-defined">&quot;Habits&quot; defined</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [15, 16] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#the-maturity-continuum">The maturity continuum</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [16, 17] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#effectiveness-defined">Effectiveness defined</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [17, 18] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#three-kinds-of-assets">Three kinds of assets</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [18, 19] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#organizational-pc">Organizational PC</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [19, 20] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#how-to-use-this-book">How to use this book</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [20, 21] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#what-can-you-expect">What can you expect</a>',
+                      children: [],
+                    },
+                  ],
+                },
+              ],
+            },
+            {
+              type: "heading",
+              depth: 1,
+              payload: { lines: [22, 23] },
+              content:
+                '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#private-victory">Private victory</a>',
+              children: [
+                {
+                  type: "heading",
+                  depth: 2,
+                  payload: { lines: [23, 24] },
+                  content:
+                    '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#habit-1-be-proactive">Habit #1 - Be proactive</a>',
+                  children: [
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [24, 25] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#the-social-mirror">The social mirror</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [25, 26] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#between-stimulus-and-response">Between stimulus and response</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [26, 27] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#proactivity-defined">&quot;Proactivity&quot; defined</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [27, 28] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#taking-the-initiative">Taking the initiative</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [28, 29] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#act-or-be-acted-upon">Act or be acted upon</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [29, 30] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#listening-to-our-language">Listening to our language</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [30, 31] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#circle-of-concern-circle-of-influence">Circle of concern/Circle of influence</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [31, 32] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#direct-indirect-and-no-control">Direct, indirect, and no control</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [32, 33] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#expanding-the-circle-of-influence">Expanding the circle of influence</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [33, 34] },
+                      content:
+                        "<a href=\"/posts/The-Seven-Habits-Of-Highly-Effective-People/#the-haves-and-the-bes\">The &quot;have's&quot; and the &quot;be's&quot;</a>",
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [34, 35] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#the-other-end-of-the-stick">The other end of the stick</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [35, 36] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#making-and-keeping-commitments">Making and keeping commitments</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [36, 37] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#proactivity-the-thirty-day-test">Proactivity: The thirty-day test</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [37, 38] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#application-suggestions">Application suggestions</a>',
+                      children: [],
+                    },
+                  ],
+                },
+                {
+                  type: "heading",
+                  depth: 2,
+                  payload: { lines: [39, 40] },
+                  content:
+                    '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#habit-2-begin-with-the-end-in-mind">Habit #2 - Begin with the end in mind</a>',
+                  children: [
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [40, 41] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#what-it-means-to-begin-with-the-end-in-mind">What it means to &quot;Begin with the end in mind&quot;</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [41, 42] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#all-things-are-created-twice">All things are created twice</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [42, 43] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#by-design-or-default">By design or default</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [43, 44] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#leadership-and-management-the-two-creations">Leadership and management - The two creations</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [44, 45] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#rescripting-becoming-your-own-first-creator">Rescripting: becoming your own first creator</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [45, 46] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#a-personal-mission-statement">A personal mission statement</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [46, 47] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#at-the-center">At the center</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [47, 48] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#alternative-centers">Alternative centers</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [48, 49] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#identifying-your-centers">Identifying your centers</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [49, 50] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#a-principle-center">A principle center</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [50, 51] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#writing-and-using-a-personal-mission-statement">Writing and using a personal mission statement</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [51, 52] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#using-your-whole-brain">Using your whole brain</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [52, 53] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#two-ways-to-tap-the-right-brain">Two ways to tap the right brain</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [53, 54] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#expand-perspective">Expand perspective</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [54, 55] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#visualization-and-affirmation">Visualization and affirmation</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [55, 56] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#identifying-roles-and-goals">Identifying roles and goals</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [56, 57] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#family-mission-statements">Family mission statements</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [57, 58] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#organizational-mission-statements">Organizational mission statements</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [58, 59] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#application-suggestions">Application suggestions</a>',
+                      children: [],
+                    },
+                  ],
+                },
+                {
+                  type: "heading",
+                  depth: 2,
+                  payload: { lines: [60, 61] },
+                  content:
+                    '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#habit-3-put-first-things-first">Habit #3 - Put first things first</a>',
+                  children: [
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [61, 62] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#the-power-of-independent-will">The power of independent will</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [62, 63] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#four-generations-of-time-management">Four generations of time management</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [63, 64] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#quadrant-ii">Quadrant II</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [64, 65] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#what-it-takes-to-say-no">What it takes to say &quot;No&quot;</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [65, 66] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#moving-to-quadrant-ii">Moving to quadrant II</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [66, 67] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#the-quadrant-ii-tool">The quadrant II tool</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [67, 68] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#becoming-a-quadrant-ii-self-manager">Becoming a quadrant II self-manager</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [68, 69] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#living-it">Living it</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [69, 70] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#advances-of-the-fourth-generation">Advances of the fourth generation</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [70, 71] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#delegation-increasing-p-and-pc">Delegation: Increasing P and PC</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [71, 72] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#gofer-delegation">Gofer delegation</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [72, 73] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#stewardship-delegation">Stewardship delegation</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [73, 74] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#the-quadrant-ii-paradigm">The quadrant II paradigm</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [74, 75] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#application-suggestions">Application suggestions</a>',
+                      children: [],
+                    },
+                  ],
+                },
+              ],
+            },
+            {
+              type: "heading",
+              depth: 1,
+              payload: { lines: [76, 77] },
+              content:
+                '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#public-victory">Public victory</a>',
+              children: [
+                {
+                  type: "heading",
+                  depth: 2,
+                  payload: { lines: [77, 78] },
+                  content:
+                    '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#paradigms-of-interdependence">Paradigms of interdependence</a>',
+                  children: [
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [78, 79] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#the-emotional-bank-account">The emotional bank account</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [79, 80] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#six-major-deposits">Six major deposits</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [80, 81] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#understanding-the-individual">Understanding the individual</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [81, 82] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#attending-to-the-little-things">Attending to the little things</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [82, 83] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#keeping-commitments">Keeping commitments</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [83, 84] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#clarifying-expectations">Clarifying expectations</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [84, 85] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#showing-personal-integrity">Showing personal integrity</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [85, 86] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#apologizing-sincerely-when-you-make-a-withdrawal">Apologizing sincerely when you make a withdrawal</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [86, 87] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#the-laws-of-love-and-the-laws-of-life">The laws of love and the laws of life</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [87, 88] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#p-problems-are-pc-opportunities">P problems are PC opportunities</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [88, 89] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#the-habits-of-interdependence">The habits of interdependence</a>',
+                      children: [],
+                    },
+                  ],
+                },
+                {
+                  type: "heading",
+                  depth: 2,
+                  payload: { lines: [90, 91] },
+                  content:
+                    '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#habit-4-think-win-win">Habit #4 - Think win/win</a>',
+                  children: [
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [91, 92] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#six-paradigms-of-human-interaction">Six paradigms of human interaction</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [92, 93] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#win-win">Win/win</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [93, 94] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#win-lose">Win/lose</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [94, 95] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#lose-win">Lose/win</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [95, 96] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#lose-lose">Lose/lose</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [96, 97] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#win">Win</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [97, 98] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#which-option-is-best">Which option is best?</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [98, 99] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#win-win-or-no-deal">Win/win or no deal?</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [99, 100] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#five-dimensions-of-win-win">Five dimensions of win/win</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [100, 101] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#character">Character</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [101, 102] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#relationships">Relationships</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [102, 103] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#agreements">Agreements</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [103, 104] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#win-win-management-training">Win/win management training</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [104, 105] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#win-win-performance-agreements">Win/win performance agreements</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [105, 106] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#systems">Systems</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [106, 107] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#processes">Processes</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [107, 108] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#application-suggestions">Application suggestions</a>',
+                      children: [],
+                    },
+                  ],
+                },
+                {
+                  type: "heading",
+                  depth: 2,
+                  payload: { lines: [109, 110] },
+                  content:
+                    '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#habit-5-seek-first-to-understand-then-to-be-understood">Habit #5 - Seek first to understand, then to be understood</a>',
+                  children: [
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [110, 111] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#character-and-communication">Character and communication</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [111, 112] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#empathetic-listening">Empathetic listening</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [112, 113] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#diagnose-before-you-prescribe">Diagnose before you prescribe</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [113, 114] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#four-autobiographical-responses">Four autobiographical responses</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [114, 115] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#understanding-and-perception">Understanding and perception</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [115, 116] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#the-seek-to-be-understood">The seek to be understood</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [116, 117] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#one-on-one">One on one</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [117, 118] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#application-suggestions">Application suggestions</a>',
+                      children: [],
+                    },
+                  ],
+                },
+                {
+                  type: "heading",
+                  depth: 2,
+                  payload: { lines: [119, 120] },
+                  content:
+                    '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#habit-6-synergize">Habit #6 - Synergize</a>',
+                  children: [
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [120, 121] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#synergistic-communication">Synergistic communication</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [121, 122] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#synergy-in-the-classroom">Synergy in the classroom</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [122, 123] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#synergy-in-business">Synergy in business</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [123, 124] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#synergy-and-communication">Synergy and communication</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [124, 125] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#fishing-for-the-third-alternative">Fishing for the third alternative</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [125, 126] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#negative-synergy">Negative synergy</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [126, 127] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#valuing-the-differences">Valuing the differences</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [127, 128] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#force-field-analysis">Force field analysis</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [128, 129] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#all-nature-is-synergistic">All nature is synergistic</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [129, 130] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#application-suggestions">Application suggestions</a>',
+                      children: [],
+                    },
+                  ],
+                },
+              ],
+            },
+            {
+              type: "heading",
+              depth: 1,
+              payload: { lines: [131, 132] },
+              content:
+                '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#renewal">Renewal</a>',
+              children: [
+                {
+                  type: "heading",
+                  depth: 2,
+                  payload: { lines: [132, 133] },
+                  content:
+                    '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#habit-7-sharpen-the-saw">Habit #7 - Sharpen the saw</a>',
+                  children: [
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [133, 134] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#four-dimensions-of-renewal">Four dimensions of renewal</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [134, 135] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#the-physical-dimension">The physical dimension</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [135, 136] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#the-spiritual-dimension">The spiritual dimension</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [136, 137] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#the-mental-dimension">The mental dimension</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [137, 138] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#the-social-emotional-dimension">The social/emotional dimension</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [138, 139] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#scripting-others">Scripting others</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [139, 140] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#balance-in-renewal">Balance in renewal</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [140, 141] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#synergy-in-renewal">Synergy in renewal</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [141, 142] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#the-upward-spiral">The upward spiral</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [142, 143] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#application-suggestions">Application suggestions</a>',
+                      children: [],
+                    },
+                  ],
+                },
+                {
+                  type: "heading",
+                  depth: 2,
+                  payload: { lines: [144, 145] },
+                  content:
+                    '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#inside-out-again">Inside-out again</a>',
+                  children: [
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [145, 146] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#intergenerational-living">Intergenerational living</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [146, 147] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#becoming-a-transition-person">Becoming a transition person</a>',
+                      children: [],
+                    },
+                    {
+                      type: "heading",
+                      depth: 3,
+                      payload: { lines: [147, 148] },
+                      content:
+                        '<a href="/posts/The-Seven-Habits-Of-Highly-Effective-People/#a-personal-note">A personal note</a>',
+                      children: [],
+                    },
+                  ],
+                },
+              ],
+            },
+          ],
+          payload: {},
+        },
+        { zoom: false, pan: false }
+      );
+    </script>
+  </body>
+</html>
