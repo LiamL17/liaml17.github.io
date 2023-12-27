@@ -4,7 +4,7 @@ title: The Seven Habits Of Highly Effective People
 date: 2023-12-26 21:20 +0200
 ---
 
-<!-- {% include The-seven-habits.html %} -->
+{% include The-seven-habits.html %}
 
 ## Paradigms and Principles
 ### Inside-out
