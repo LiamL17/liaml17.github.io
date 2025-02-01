@@ -11,9 +11,9 @@ bundle exec jekyll post "My New Post"
 
 ### Run server with live reload
 ```
-bundle exec jekyll serve --live-reload
+bundle exec jekyll serve --livereload
 ```
 With drafts
 ```
-bundle exec jekyll serve --live-reload --drafts
+bundle exec jekyll serve --livereload --drafts
 ```
