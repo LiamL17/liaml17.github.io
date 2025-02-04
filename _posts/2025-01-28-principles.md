@@ -68,12 +68,12 @@ r.Shuffle(len(shuffledSlice), func(i, j int) {
 ```go
 
 func ShuffleSlice(a []int) []int {
-	r := rand.New(rand.NewSource(time.Now().UnixNano()))
-	r.Shuffle(len(a), func(i, j int) {
-		a[i], a[j] = a[j], a[i]
-	})
+    r := rand.New(rand.NewSource(time.Now().UnixNano()))
+    r.Shuffle(len(a), func(i, j int) {
+        a[i], a[j] = a[j], a[i]
+    })
 
-	return a
+    return a
 }
 
 slice := [1,2,3,4,5]
