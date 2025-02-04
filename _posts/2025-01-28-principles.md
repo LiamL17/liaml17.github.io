@@ -84,7 +84,7 @@ shuffledTwiceSlice := ShuffleSlice(shuffledSlice)
 A clear difference between the two! Both will achieve the same, however the second is much more clear and the `shuffleSlice` function can be used anywhere else it will be required.
 
 ## 3. Separation of Concerns
-Our last known principle is once more quite basic in understanding. One must simply separate concerns. Each section must address an individual concern which can thought of as a small detail or part of the program. The easiest way to show this wonderful and almost perfect design principle is to take a look at some good ol' frontend code! Look at the difference between the following snippets:
+Our last known principle is once more quite basic in understanding. One must simply separate concerns. Each section must address an individual concern which can be thought of as a small detail or part of the program. The easiest way to show this wonderful and almost perfect design principle is to take a look at some good ol' frontend code! Look at the difference between the following snippets:
 
 ```html
 <!DOCTYPE html>
