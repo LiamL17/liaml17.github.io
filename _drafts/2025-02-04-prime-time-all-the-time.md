@@ -20,6 +20,7 @@ But all of that yapping is simply to get to the actual content of the post. I wa
 | [Java](#java) |
 | [Groovy](#groovy) |
 | [Kotlin](#kotlin) |
+| [Go](#go) |
 
 ### Java
 ```java
@@ -33,5 +34,44 @@ boolean isPrime(int n) {
 ```
 
 ### Groovy
+```groovy
+boolean isPrime(int n) {
+    if (n < 2) return false
+    for (int i = 2; i * i <= n; i++) {
+        if (n % i == 0) return false
+    }
+    return true
+}
+```
 
 ### Kotlin
+```kotlin
+fun isPrime(n: Int): Boolean {
+    if (n < 2) return false
+
+    var i = 2
+    while (i * i <= n) {
+        if (n % i == 0) return false
+        i++
+    }
+
+    return true
+}
+```
+
+### Go
+```go
+func isPrime(n int) bool {
+    if n < 2 {
+        return false
+    }
+
+    for i := 2; i*i <= n; i++ {
+        if n%i == 0 {
+            return false
+        }
+    }
+
+    return true
+}
+```
