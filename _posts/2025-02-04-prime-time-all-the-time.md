@@ -25,16 +25,16 @@ Later on I want to link a website where the specific piece of code can be execut
 
 | Language |
 |----------|
-| [General-Purpose Programming Languages](#general-purpose-programming-languages) |
-| [Web Development Languages & Frameworks](#web-development-languages--frameworks) |
+| [General-Purpose](#general-purpose) |
+| [Web Development & Frameworks](#web-development--frameworks) |
 | [Mobile & UI Development](#mobile--ui-development) |
 | [Scientific & Mathematical Computing](#scientific--mathematical-computing) |
 | [Game Development & Graphics](#game-development--graphics) |
-| [Embedded Systems & Low-Level Languages](#embedded-systems--low-level-languages) |
-| [Scripting & Shell Languages](#scripting--shell-languages) |
-| [Functional & Logical Programming](#functional--logical-programming) |
-| [Database Query & Blockchain Languages](#database-query--blockchain-languages) |
-| [High-Performance & Parallel Computing](#high-performance--parallel-computing) |
+| [Embedded Systems & Low-Level](#embedded-systems--low-level) |
+| [Scripting & Shell](#scripting--shell) |
+| [Functional & Logical](#functional--logical) |
+| [Database Query & Blockchain](#database-query--blockchain) |
+| [Performance & Parallel Computing](#performance--parallel-computing) |
 
 ### General-Purpose
 
@@ -495,7 +495,7 @@ _To do..._
 #### BeanShell
 _To do..._
 
-### Functional & Logical Programming
+### Functional & Logical
 
 | Language |
 |----------|
