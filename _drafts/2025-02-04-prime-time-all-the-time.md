@@ -13,6 +13,14 @@ It seems the **intellectual** did not respond. Allow me to take a stab at it.
 
 But all of that yapping is simply to get to the actual content of the post. I want to see in how many programming languages can I write an `isPrime` function! With that knowledge, welcome to the abyss as we dive into all sorts of programming languages trying to discover a prime!
 
+## Criteria
+Each language must display the output of some `isPrime` function with an input value of **911**. For most languages the output will be:
+```
+isPrime(911) = True
+```
+
+Later on I want to link a website where the specific piece of code can be executed directly. It should be a copy and paste and work as is!
+
 ## Table Of Contents
 
 | Language |
@@ -62,6 +70,8 @@ boolean isPrime(int n) {
     }
     return true;
 }
+
+System.out.println("isPrime(911) = " + isPrime(911))
 ```
 
 #### Groovy
@@ -73,6 +83,8 @@ boolean isPrime(int n) {
     }
     return true
 }
+
+println "isPrime(911) = " + isPrime(911)
 ```
 
 #### Kotlin
@@ -88,6 +100,8 @@ fun isPrime(n: Int): Boolean {
 
     return true
 }
+
+println("isPrime(911) = " + isPrime(911))
 ```
 
 #### Go
@@ -108,25 +122,125 @@ func isPrime(n int) bool {
 ```
 
 #### Python
-_To do..._
+```python
+def isPrime(n):
+    if n < 2:
+        return False
+    
+    i = 2
+    while(i * i <= n):
+        if (n % i == 0):
+            return False
+        i += 1
+    
+    return True
+
+print(f'isPrime(911) = {isPrime(911)}')
+```
 
 #### C
-_To do..._
+```c
+int isPrime(int n) {
+    if (n < 2) {
+        return 0;
+    }
+    
+    for (int i = 2; i * i <= n; ++i) {
+        if (n % i == 0) {
+            return 0;
+        }
+    }
+    
+    return 1;
+}
+
+printf("isPrime(911) = %d", isPrime(911));
+```
 
 #### C++
-_To do..._
+```c++
+int isPrime(int n) {
+    if (n < 2) {
+        return 0;
+    }
+    
+    for (int i = 2; i * i <= n; ++i) {
+        if (n % i == 0) {
+            return 0;
+        }
+    }
+    
+    return 1;
+}
+
+std::cout << "isPrime(911) = " << isPrime(911);
+```
 
 #### C#
-_To do..._
+```csharp
+public static bool isPrime(int n)
+    {
+        if (n < 2)
+        {
+            return false;
+        }
+        
+        for (int i = 2; i * i <= n; i++)
+        {
+            if (n % i == 0)
+            {
+                return false;
+            }
+        }
+        
+        return true;
+    }
+
+Console.WriteLine ("isPrime(911) = " + isPrime(911));
+```
 
 #### Swift
-_To do..._
+```swift
+func isPrime(n: Int) -> Bool {
+    if (n < 2) {
+        return false
+    }
+
+    var i = 2
+    while (i * i <= n) {
+        if (n % i == 0) {
+            return false
+        }
+        i += 1
+    }
+
+    return true
+}
+
+print("isPrime(n: 911) =", isPrime(n: 911))
+```
 
 #### Rust
 _To do..._
 
 #### Dart
-_To do..._
+```dart
+bool isPrime(int n) {
+  if (n < 2) {
+    return false;
+  }
+  
+  for (int i = 2; i * i < n; i++) {
+    if (n % i == 0) {
+      return false;
+    }
+  }
+  
+  return true;
+}
+
+print('isPrime(911) = ${isPrime(911)}');
+```
 
 #### Ruby
 _To do..._
