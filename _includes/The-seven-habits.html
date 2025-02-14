@@ -34,12 +34,17 @@
     </script>
     <script>
       ((C, E, F, I) => {
-        const R = C();
-        window.mm = R.Markmap.create(
-          "svg#mindmap",
-          (E || R.deriveOptions)(I),
-          F
-        );
+          const R = C();
+          window.mm = R.Markmap.create(
+              "svg#mindmap",
+              Object.assign(E || R.deriveOptions(I), {
+                  layout: {
+                      direction: "TB", // Change to top-to-bottom
+                      depthY: 150, // Increase vertical spacing
+                  }
+              }),
+              F
+          );
       })(
         () => window.markmap,
         null,
