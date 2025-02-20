@@ -2,7 +2,6 @@
 title: A new beginning
 date: 2023-02-12 23:53:31
 tags: [new, jekyll]
-pin: true
 ---
 
 ## This post serves as a starting point for Liam's Life™

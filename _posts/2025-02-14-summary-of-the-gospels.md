@@ -2,6 +2,7 @@
 layout: post
 title: Summary of the Gospels
 date: 2025-02-14 23:00 +0200
+pin: true
 ---
 
 ## Motivation
