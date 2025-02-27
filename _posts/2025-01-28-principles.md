@@ -5,7 +5,7 @@ date: 2025-01-28 16:15 +0200
 ---
 
 ## What is it?
-A principle is a truth, a fundamental way of life. One can think of a principle as the implementation of "because I said so". Google neatly adds to the definition by stating that it's the truth used as a foundation for a behavior or reason. 
+A principle is a truth, a fundamental way of life. One can think of a principle as the implementation of "because I said so". Google neatly adds to the definition by stating that it's the truth used as a foundation for a behavior or reason.
 
 Many of us have principles we are vastly unaware of, but I want to share some of my own insights in some coding principles. I only recently (yesterday as of writing) discovered that I am extremely biased into a very specific principle.
 

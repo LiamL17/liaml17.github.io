@@ -38,26 +38,26 @@ Later on I want to link a website where the specific piece of code can be execut
 
 ### General-Purpose
 
-| Language |
-|----------|
-| [Java](#java) |
+| Language          |
+| ----------------- |
+| [Java](#java)     |
 | [Groovy](#groovy) |
 | [Kotlin](#kotlin) |
-| [Go](#go) |
+| [Go](#go)         |
 | [Python](#python) |
-| [C](#c) |
-| [C++](#c-1) |
-| [C#](#c-2) |
-| [Swift](#swift) |
-| [Rust](#rust) |
-| [Dart](#dart) |
-| [Ruby](#ruby) |
-| [Vala](#vala) |
-| [Julia](#julia) |
-| [Nim](#nim) |
-| [Perl](#perl) |
-| [PHP](#php) |
-| [Scala](#scala) |
+| [C](#c)           |
+| [C++](#c-1)       |
+| [C#](#c-2)        |
+| [Swift](#swift)   |
+| [Rust](#rust)     |
+| [Dart](#dart)     |
+| [Ruby](#ruby)     |
+| [Vala](#vala)     |
+| [Julia](#julia)   |
+| [Nim](#nim)       |
+| [Perl](#perl)     |
+| [PHP](#php)       |
+| [Scala](#scala)   |
 
 ---
 
